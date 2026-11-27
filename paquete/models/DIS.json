@@ -1,0 +1,48 @@
+{
+  "red": "LSTM",
+  "config": 16,
+  "version": "A",
+  "regla": "C",
+  "delta": 0.001,
+  "sharpe_VA": 0.655,
+  "epocas_final": 5,
+  "ticker": "DIS",
+  "clase": "Accion",
+  "escala": {
+    "mu_x": [
+      0.000263820867985487
+    ],
+    "sd_x": [
+      0.01762121543288231
+    ],
+    "mu_y": 0.00029453239932738135,
+    "sd_y": 0.017651679440302628
+  },
+  "features": [
+    "r_lag19",
+    "r_lag18",
+    "r_lag17",
+    "r_lag16",
+    "r_lag15",
+    "r_lag14",
+    "r_lag13",
+    "r_lag12",
+    "r_lag11",
+    "r_lag10",
+    "r_lag9",
+    "r_lag8",
+    "r_lag7",
+    "r_lag6",
+    "r_lag5",
+    "r_lag4",
+    "r_lag3",
+    "r_lag2",
+    "r_lag1",
+    "r_lag0"
+  ],
+  "semillas": [
+    42,
+    7,
+    123
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "huella": "faf07ab201f705b3",
+  "congelada": "2026-11-27T13:56:16",
+  "activos": {
+    "AAPL": {
+      "red": "LSTM",
+      "config": 64,
+      "version": "B",
+      "regla": "D",
+      "delta": 0.001,
+      "sharpe_VA": 2.2713,
+      "epocas_final": 8
+    },
+    "ADA-USD": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.01,
+      "sharpe_VA": 1.4059,
+      "epocas_final": 5
+    },
+    "AMD": {
+      "red": "LSTM",
+      "config": 32,
+      "version": "B",
+      "regla": "C",
+      "delta": 0.002,
+      "sharpe_VA": 1.5369,
+      "epocas_final": 5
+    },
+    "AMZN": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.0,
+      "sharpe_VA": 1.8213,
+      "epocas_final": 5
+    },
+    "AUDUSD=X": {
+      "red": "LSTM",
+      "config": 64,
+      "version": "B",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 0.0,
+      "epocas_final": 5
+    },
+    "AVAX-USD": {
+      "red": "MLP",
+      "config": 16,
+      "version": "B",
+      "regla": "C",
+      "delta": 0.01,
+      "sharpe_VA": 0.8288,
+      "epocas_final": 8
+    },
+    "BAC": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "D",
+      "delta": 0.002,
+      "sharpe_VA": 1.8164,
+      "epocas_final": 14
+    },
+    "BNB-USD": {
+      "red": "MLP",
+      "config": 16,
+      "version": "B",
+      "regla": "C",
+      "delta": 0.0,
+      "sharpe_VA": -0.1191,
+      "epocas_final": 6
+    },
+    "BTC-USD": {
+      "red": "LSTM",
+      "config": 32,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 1.965,
+      "epocas_final": 5
+    },
+    "CAD=X": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "B",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 0.0,
+      "epocas_final": 24
+    },
+    "CHF=X": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 0.6389,
+      "epocas_final": 18
+    },
+    "DIS": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 0.655,
+      "epocas_final": 5
+    },
+    "DOGE-USD": {
+      "red": "MLP",
+      "config": 64,
+      "version": "A",
+      "regla": "D",
+      "delta": 0.005,
+      "sharpe_VA": 1.7858,
+      "epocas_final": 13
+    },
+    "ETH-USD": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.002,
+      "sharpe_VA": 1.3158,
+      "epocas_final": 11
+    },
+    "EURJPY=X": {
+      "red": "LSTM",
+      "config": 64,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.005,
+      "sharpe_VA": 0.0,
+      "epocas_final": 5
+    },
+    "EURMXN=X": {
+      "red": "LSTM",
+      "config": 64,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 0.1821,
+      "epocas_final": 5
+    },
+    "EURUSD=X": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 0.0,
+      "epocas_final": 8
+    },
+    "GBPUSD=X": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 0.0,
+      "epocas_final": 9
+    },
+    "GOOGL": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "B",
+      "regla": "C",
+      "delta": 0.0,
+      "sharpe_VA": 1.7393,
+      "epocas_final": 5
+    },
+    "INTC": {
+      "red": "MLP",
+      "config": 64,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.002,
+      "sharpe_VA": 1.0315,
+      "epocas_final": 5
+    },
+    "JNJ": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.005,
+      "sharpe_VA": 0.4024,
+      "epocas_final": 13
+    },
+    "JPM": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.0,
+      "sharpe_VA": 2.1052,
+      "epocas_final": 5
+    },
+    "JPY=X": {
+      "red": "LSTM",
+      "config": 32,
+      "version": "A",
+      "regla": "D",
+      "delta": 0.0,
+      "sharpe_VA": 0.4919,
+      "epocas_final": 5
+    },
+    "KO": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "D",
+      "delta": 0.002,
+      "sharpe_VA": 1.1743,
+      "epocas_final": 16
+    },
+    "LINK-USD": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "B",
+      "regla": "C",
+      "delta": 0.005,
+      "sharpe_VA": 0.7953,
+      "epocas_final": 13
+    },
+    "LTC-USD": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.01,
+      "sharpe_VA": 1.6784,
+      "epocas_final": 9
+    },
+    "MA": {
+      "red": "MLP",
+      "config": 32,
+      "version": "A",
+      "regla": "D",
+      "delta": 0.002,
+      "sharpe_VA": 2.196,
+      "epocas_final": 7
+    },
+    "META": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.0,
+      "sharpe_VA": 1.7562,
+      "epocas_final": 10
+    },
+    "MSFT": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "D",
+      "delta": 0.005,
+      "sharpe_VA": 1.5278,
+      "epocas_final": 8
+    },
+    "MXN=X": {
+      "red": "LSTM",
+      "config": 32,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.0,
+      "sharpe_VA": 0.1114,
+      "epocas_final": 5
+    },
+    "NFLX": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "D",
+      "delta": 0.0,
+      "sharpe_VA": 1.9663,
+      "epocas_final": 5
+    },
+    "NVDA": {
+      "red": "LSTM",
+      "config": 64,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 2.1389,
+      "epocas_final": 5
+    },
+    "NZDUSD=X": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 0.7806,
+      "epocas_final": 52
+    },
+    "PFE": {
+      "red": "LSTM",
+      "config": 64,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.005,
+      "sharpe_VA": 0.0,
+      "epocas_final": 5
+    },
+    "SOL-USD": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.01,
+      "sharpe_VA": 0.7114,
+      "epocas_final": 26
+    },
+    "TSLA": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "D",
+      "delta": 0.0,
+      "sharpe_VA": 1.609,
+      "epocas_final": 23
+    },
+    "V": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.0,
+      "sharpe_VA": 1.1877,
+      "epocas_final": 5
+    },
+    "WMT": {
+      "red": "LSTM",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.001,
+      "sharpe_VA": 1.5534,
+      "epocas_final": 5
+    },
+    "XOM": {
+      "red": "MLP",
+      "config": 16,
+      "version": "A",
+      "regla": "C",
+      "delta": 0.005,
+      "sharpe_VA": 0.2248,
+      "epocas_final": 14
+    },
+    "XRP-USD": {
+      "red": "LSTM",
+      "config": 64,
+      "version": "B",
+      "regla": "C",
+      "delta": 0.005,
+      "sharpe_VA": 2.3971,
+      "epocas_final": 5
+    }
+  }
+}

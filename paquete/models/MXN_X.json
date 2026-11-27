@@ -1,0 +1,48 @@
+{
+  "red": "LSTM",
+  "config": 32,
+  "version": "A",
+  "regla": "C",
+  "delta": 0.0,
+  "sharpe_VA": 0.1114,
+  "epocas_final": 5,
+  "ticker": "MXN=X",
+  "clase": "Divisa",
+  "escala": {
+    "mu_x": [
+      0.0001108336218749173
+    ],
+    "sd_x": [
+      0.00781615637242794
+    ],
+    "mu_y": 0.00012108164236450862,
+    "sd_y": 0.007826214257863767
+  },
+  "features": [
+    "r_lag19",
+    "r_lag18",
+    "r_lag17",
+    "r_lag16",
+    "r_lag15",
+    "r_lag14",
+    "r_lag13",
+    "r_lag12",
+    "r_lag11",
+    "r_lag10",
+    "r_lag9",
+    "r_lag8",
+    "r_lag7",
+    "r_lag6",
+    "r_lag5",
+    "r_lag4",
+    "r_lag3",
+    "r_lag2",
+    "r_lag1",
+    "r_lag0"
+  ],
+  "semillas": [
+    42,
+    7,
+    123
+  ]
+}

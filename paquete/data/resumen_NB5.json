@@ -1,0 +1,15 @@
+{
+  "huella_config": "faf07ab201f705b3",
+  "version_elegida": {
+    "A": 31,
+    "B": 9
+  },
+  "TE_pct_vence_BH": 0.3,
+  "TE_sharpe_IA": -0.14658131979103778,
+  "TE_sharpe_BH": 0.14872732716669818,
+  "senales_hoy": {
+    "NEUTRAL": 28,
+    "LONG": 10,
+    "SHORT": 2
+  }
+}

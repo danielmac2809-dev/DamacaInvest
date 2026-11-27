@@ -1,0 +1,48 @@
+{
+  "red": "MLP",
+  "config": 32,
+  "version": "A",
+  "regla": "D",
+  "delta": 0.002,
+  "sharpe_VA": 2.196,
+  "epocas_final": 7,
+  "ticker": "MA",
+  "clase": "Accion",
+  "escala": {
+    "mu_x": [
+      0.0008496170048601925
+    ],
+    "sd_x": [
+      0.016499755904078484
+    ],
+    "mu_y": 0.0008582514700609026,
+    "sd_y": 0.01651546562631479
+  },
+  "features": [
+    "r_lag19",
+    "r_lag18",
+    "r_lag17",
+    "r_lag16",
+    "r_lag15",
+    "r_lag14",
+    "r_lag13",
+    "r_lag12",
+    "r_lag11",
+    "r_lag10",
+    "r_lag9",
+    "r_lag8",
+    "r_lag7",
+    "r_lag6",
+    "r_lag5",
+    "r_lag4",
+    "r_lag3",
+    "r_lag2",
+    "r_lag1",
+    "r_lag0"
+  ],
+  "semillas": [
+    42,
+    7,
+    123
+  ]
+}

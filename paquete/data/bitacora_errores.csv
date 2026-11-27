@@ -1,0 +1,9 @@
+id,tipo,fallo,como_se_provoco,sintoma,como_se_detecto,correccion,estado
+1,provocado,Fuga del futuro en las entradas,Rezagos con shift(-1): la entrada incluye r_{t+1},Correlación ~1 entre una entrada y el objetivo; el RMSE sería casi 0,Prueba de correlación de NB1 (|corr| < 0.5),"Usar solo r_t, r_{t-1}, …, r_{t-19}",✔ detectado
+3,provocado,Datos corruptos de Yahoo,"Precio negativo, fecha duplicada y salto de +500 %",Rendimientos absurdos que dominan el entrenamiento,"Auditoría de NB1 (no positivos, duplicados, |r| > 25 %)",Limpieza documentada y marcar el activo como no apto,✔ detectado
+4,provocado,Ajustar la configuración mirando TE,Cambiar δ de BTC-USD después de la evaluación final,Resultados de TE optimistas e inválidos,Candado con huella SHA-256 de NB5,Prohibido: cualquier cambio exige nuevos datos de prueba,✔ detectado
+5,real,Ruta de Windows demasiado larga,-,pip install falló con WinError 206 en la carpeta temporal,Mensaje de error de pip,Mover el proyecto a Documentos\DamacaInvest y el entorno a %USERPROFILE%\.venvs,✔ resuelto
+6,real,OneDrive sincronizando el entorno virtual,-,Riesgo de miles de archivos de TensorFlow sincronizándose,Revisión de la estructura,Entorno virtual fuera de OneDrive,✔ resuelto
+7,real,NB2 muy lento en Colab,-,720 entrenamientos; el checkpoint escribía en Drive cada vez que mejoraba,Tiempo por modelo alto en el registro,Notebook reanudable; checkpoint local recomendado,✔ resuelto
+8,real,Demasiados entornos abiertos en Colab,-,Colab gratis limita las sesiones simultáneas,Mensaje 'demasiados administradores',Finalizar sesiones terminadas; los resultados viven en Drive,✔ resuelto
+9,real,MEXC bloquea EE. UU. (alternativa descartada),-,Streamlit Cloud corre en EE. UU.,Errores 403 de la API,Se descartó MEXC; DamacaInvest usa solo Polymarket y APIs sin bloqueo,✔ resuelto

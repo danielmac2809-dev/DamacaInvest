@@ -1,0 +1,246 @@
+archivo,columna,tipo,descripcion
+salidas/auditoria.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/auditoria.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/auditoria.csv,primera_fecha,object,
+salidas/auditoria.csv,ultima_fecha,object,
+salidas/auditoria.csv,filas,int64,
+salidas/auditoria.csv,nan_close,int64,
+salidas/auditoria.csv,fechas_duplicadas,int64,
+salidas/auditoria.csv,precios_no_positivos,int64,
+salidas/auditoria.csv,ohlc_incoherente,int64,
+salidas/auditoria.csv,max_hueco_dias,int64,
+salidas/auditoria.csv,rend_extremos,int64,
+salidas/auditoria.csv,max_abs_rend,float64,
+salidas/auditoria.csv,apto,bool,
+salidas/bitacora_descarga.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/bitacora_descarga.csv,estado,object,
+salidas/bitacora_descarga.csv,filas,int64,
+salidas/bitacora_errores.csv,id,int64,
+salidas/bitacora_errores.csv,tipo,object,
+salidas/bitacora_errores.csv,fallo,object,
+salidas/bitacora_errores.csv,como_se_provoco,object,
+salidas/bitacora_errores.csv,sintoma,object,
+salidas/bitacora_errores.csv,como_se_detecto,object,
+salidas/bitacora_errores.csv,correccion,object,
+salidas/bitacora_errores.csv,estado,object,
+salidas/comparacion_A_vs_B_NB5.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/comparacion_A_vs_B_NB5.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/comparacion_A_vs_B_NB5.csv,red,object,MLP o LSTM
+salidas/comparacion_A_vs_B_NB5.csv,config,int64,Neuronas de la capa principal (16/32/64)
+salidas/comparacion_A_vs_B_NB5.csv,rmse_VA_A,float64,
+salidas/comparacion_A_vs_B_NB5.csv,rmse_VA_B,float64,
+salidas/comparacion_A_vs_B_NB5.csv,dir_VA_A,float64,
+salidas/comparacion_A_vs_B_NB5.csv,dir_VA_B,float64,
+salidas/comparacion_A_vs_B_NB5.csv,version,object,"A = rendimientos; B = + SMA20, vol20, RSI14"
+salidas/cortes_split.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/cortes_split.csv,TR_min,object,
+salidas/cortes_split.csv,TR_max,object,
+salidas/cortes_split.csv,TR_count,int64,
+salidas/cortes_split.csv,VA_min,object,
+salidas/cortes_split.csv,VA_max,object,
+salidas/cortes_split.csv,VA_count,int64,
+salidas/cortes_split.csv,TE_min,object,
+salidas/cortes_split.csv,TE_max,object,
+salidas/cortes_split.csv,TE_count,int64,
+salidas/curvas_TE.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/curvas_TE.csv,fecha,object,
+salidas/curvas_TE.csv,ia,float64,Capital de la estrategia IA
+salidas/curvas_TE.csv,bh,float64,Capital de comprar y mantener
+salidas/experimentos.csv,fecha_corrida,object,
+salidas/experimentos.csv,notebook,object,
+salidas/experimentos.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/experimentos.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/experimentos.csv,modelo,object,
+salidas/experimentos.csv,config,object,Neuronas de la capa principal (16/32/64)
+salidas/experimentos.csv,semilla,object,Semilla aleatoria
+salidas/experimentos.csv,split,object,"TR (70 %), VA (15 %) o TE (15 %)"
+salidas/experimentos.csv,n,float64,
+salidas/experimentos.csv,rmse,float64,Raíz del error cuadrático medio
+salidas/experimentos.csv,mae,float64,Error absoluto medio
+salidas/experimentos.csv,acierto_dir,float64,% de veces que el signo coincide
+salidas/experimentos.csv,sharpe,float64,Sharpe anualizado (252 días; 365 en cripto)
+salidas/experimentos.csv,rend_total,float64,Rendimiento acumulado
+salidas/ficha_activos.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/ficha_activos.csv,nombre,object,Nombre del activo
+salidas/ficha_activos.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/ficha_activos.csv,desde,object,
+salidas/ficha_activos.csv,hasta,object,
+salidas/ficha_activos.csv,observaciones,int64,
+salidas/ficha_activos.csv,precio_ultimo,float64,
+salidas/ficha_activos.csv,rend_diario_medio_%,float64,
+salidas/ficha_activos.csv,vol_anual_%,float64,
+salidas/ficha_activos.csv,rend_total_%,float64,
+salidas/grid_umbrales_NB3.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/grid_umbrales_NB3.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/grid_umbrales_NB3.csv,red,object,MLP o LSTM
+salidas/grid_umbrales_NB3.csv,ventana,int64,
+salidas/grid_umbrales_NB3.csv,regla,object,C: ŷ>δ; D: además precio > SMA20
+salidas/grid_umbrales_NB3.csv,delta,float64,Umbral δ
+salidas/grid_umbrales_NB3.csv,n_dias,int64,
+salidas/grid_umbrales_NB3.csv,rend_total,float64,Rendimiento acumulado
+salidas/grid_umbrales_NB3.csv,sharpe,float64,Sharpe anualizado (252 días; 365 en cripto)
+salidas/grid_umbrales_NB3.csv,max_dd,float64,Máxima caída desde un pico
+salidas/grid_umbrales_NB3.csv,operaciones,int64,Número de compras y ventas
+salidas/grid_umbrales_NB3.csv,pct_invertido,float64,
+salidas/grid_umbrales_NB3.csv,capital_final,float64,
+salidas/grid_umbrales_NB3.csv,rend_bh,float64,
+salidas/grid_umbrales_NB3.csv,sharpe_bh,float64,
+salidas/mejor_config_NB2.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/mejor_config_NB2.csv,red,object,MLP o LSTM
+salidas/mejor_config_NB2.csv,config,int64,Neuronas de la capa principal (16/32/64)
+salidas/mejor_config_NB2.csv,rmse_media,float64,
+salidas/mejor_config_NB2.csv,rmse_sd,float64,
+salidas/mejor_config_NB2.csv,dir_media,float64,
+salidas/mejor_config_NB2.csv,epocas,float64,
+salidas/mejor_config_NB2.csv,rmse_mejor_ref,float64,
+salidas/mejor_config_NB2.csv,rmse_cero,float64,
+salidas/mejor_config_NB2.csv,vence_cero,bool,
+salidas/mejor_config_NB2.csv,vence_mejor_ref,bool,
+salidas/politicas_VA_NB4.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/politicas_VA_NB4.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/politicas_VA_NB4.csv,politica,object,
+salidas/politicas_VA_NB4.csv,rend_total,float64,Rendimiento acumulado
+salidas/politicas_VA_NB4.csv,sharpe,float64,Sharpe anualizado (252 días; 365 en cripto)
+salidas/politicas_VA_NB4.csv,max_dd,float64,Máxima caída desde un pico
+salidas/politicas_VA_NB4.csv,operaciones,float64,Número de compras y ventas
+salidas/predicciones_TE.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/predicciones_TE.csv,fecha_objetivo,object,Día t+1 del objetivo
+salidas/predicciones_TE.csv,y,float64,Objetivo: P(t+1)/P(t) − 1
+salidas/predicciones_TE.csv,yhat,float64,Pronóstico de la IA para y
+salidas/predicciones_VA_NB2.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/predicciones_VA_NB2.csv,red,object,MLP o LSTM
+salidas/predicciones_VA_NB2.csv,config,int64,Neuronas de la capa principal (16/32/64)
+salidas/predicciones_VA_NB2.csv,fecha_objetivo,object,Día t+1 del objetivo
+salidas/predicciones_VA_NB2.csv,y,float64,Objetivo: P(t+1)/P(t) − 1
+salidas/predicciones_VA_NB2.csv,yhat,float64,Pronóstico de la IA para y
+salidas/pronostico_futuro.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/pronostico_futuro.csv,nombre,object,Nombre del activo
+salidas/pronostico_futuro.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/pronostico_futuro.csv,fecha_ultimo_cierre,object,
+salidas/pronostico_futuro.csv,close,float64,
+salidas/pronostico_futuro.csv,yhat,float64,Pronóstico de la IA para y
+salidas/pronostico_futuro.csv,precio_estimado,float64,
+salidas/pronostico_futuro.csv,senal,object,LONG / SHORT / NEUTRAL
+salidas/pronostico_futuro.csv,sma20,float64,Media móvil de 20 cierres
+salidas/pronostico_futuro.csv,vol20,float64,Desviación estándar de 20 días de los rendimientos
+salidas/pronostico_futuro.csv,rsi14,float64,RSI de 14 días
+salidas/pronostico_futuro.csv,atr14,float64,Rango verdadero promedio de 14 días
+salidas/pronostico_futuro.csv,red,object,MLP o LSTM
+salidas/pronostico_futuro.csv,version,object,"A = rendimientos; B = + SMA20, vol20, RSI14"
+salidas/pronostico_futuro.csv,regla,object,C: ŷ>δ; D: además precio > SMA20
+salidas/pronostico_futuro.csv,delta,float64,Umbral δ
+salidas/referencias.csv,fecha_corrida,object,
+salidas/referencias.csv,notebook,object,
+salidas/referencias.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/referencias.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/referencias.csv,modelo,object,
+salidas/referencias.csv,config,object,Neuronas de la capa principal (16/32/64)
+salidas/referencias.csv,semilla,object,Semilla aleatoria
+salidas/referencias.csv,split,object,"TR (70 %), VA (15 %) o TE (15 %)"
+salidas/referencias.csv,n,int64,
+salidas/referencias.csv,rmse,float64,Raíz del error cuadrático medio
+salidas/referencias.csv,mae,float64,Error absoluto medio
+salidas/referencias.csv,acierto_dir,float64,% de veces que el signo coincide
+salidas/resultados_NB2.csv,fecha_corrida,object,
+salidas/resultados_NB2.csv,notebook,object,
+salidas/resultados_NB2.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/resultados_NB2.csv,red,object,MLP o LSTM
+salidas/resultados_NB2.csv,config,int64,Neuronas de la capa principal (16/32/64)
+salidas/resultados_NB2.csv,semilla,int64,Semilla aleatoria
+salidas/resultados_NB2.csv,split,object,"TR (70 %), VA (15 %) o TE (15 %)"
+salidas/resultados_NB2.csv,n,int64,
+salidas/resultados_NB2.csv,epocas,int64,
+salidas/resultados_NB2.csv,mejor_epoca,int64,
+salidas/resultados_NB2.csv,rmse,float64,Raíz del error cuadrático medio
+salidas/resultados_NB2.csv,mae,float64,Error absoluto medio
+salidas/resultados_NB2.csv,acierto_dir,float64,% de veces que el signo coincide
+salidas/resultados_NB2.csv,mu_x,float64,
+salidas/resultados_NB2.csv,sd_x,float64,
+salidas/resultados_NB2.csv,mu_y,float64,
+salidas/resultados_NB2.csv,sd_y,float64,
+salidas/resultados_NB5_B.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/resultados_NB5_B.csv,red,object,MLP o LSTM
+salidas/resultados_NB5_B.csv,config,int64,Neuronas de la capa principal (16/32/64)
+salidas/resultados_NB5_B.csv,semilla,int64,Semilla aleatoria
+salidas/resultados_NB5_B.csv,rmse,float64,Raíz del error cuadrático medio
+salidas/resultados_NB5_B.csv,acierto_dir,float64,% de veces que el signo coincide
+salidas/resultados_NB5_B.csv,mejor_epoca,int64,
+salidas/resultados_NB5_B.csv,escala,object,
+salidas/resultados_TE.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/resultados_TE.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/resultados_TE.csv,red,object,MLP o LSTM
+salidas/resultados_TE.csv,config,int64,Neuronas de la capa principal (16/32/64)
+salidas/resultados_TE.csv,version,object,"A = rendimientos; B = + SMA20, vol20, RSI14"
+salidas/resultados_TE.csv,regla,object,C: ŷ>δ; D: además precio > SMA20
+salidas/resultados_TE.csv,delta,float64,Umbral δ
+salidas/resultados_TE.csv,n_TE,int64,
+salidas/resultados_TE.csv,rmse,float64,Raíz del error cuadrático medio
+salidas/resultados_TE.csv,rmse_cero,float64,
+salidas/resultados_TE.csv,acierto_dir,float64,% de veces que el signo coincide
+salidas/resultados_TE.csv,ia_rend_total,float64,Rendimiento acumulado
+salidas/resultados_TE.csv,ia_sharpe,float64,Sharpe anualizado (252 días; 365 en cripto)
+salidas/resultados_TE.csv,ia_max_dd,float64,Máxima caída desde un pico
+salidas/resultados_TE.csv,ia_operaciones,int64,Número de compras y ventas
+salidas/resultados_TE.csv,bh_rend_total,float64,Rendimiento acumulado
+salidas/resultados_TE.csv,bh_sharpe,float64,Sharpe anualizado (252 días; 365 en cripto)
+salidas/resultados_TE.csv,bh_max_dd,float64,Máxima caída desde un pico
+salidas/resultados_TE.csv,bh_operaciones,int64,Número de compras y ventas
+salidas/resultados_TE.csv,ia_vence_bh,bool,
+salidas/resultados_TE.csv,ia_vence_cero_rmse,bool,
+salidas/umbral_elegido_NB3.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/umbral_elegido_NB3.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/umbral_elegido_NB3.csv,red,object,MLP o LSTM
+salidas/umbral_elegido_NB3.csv,regla,object,C: ŷ>δ; D: además precio > SMA20
+salidas/umbral_elegido_NB3.csv,delta,float64,Umbral δ
+salidas/umbral_elegido_NB3.csv,sharpe_medio,float64,
+salidas/umbral_elegido_NB3.csv,sharpe_min,float64,
+salidas/umbral_elegido_NB3.csv,rend_VA,float64,
+salidas/umbral_elegido_NB3.csv,max_dd_VA,float64,
+salidas/umbral_elegido_NB3.csv,operaciones_VA,int64,
+salidas/umbral_elegido_NB3.csv,pct_invertido,float64,
+salidas/umbral_elegido_NB3.csv,sharpe_bh_medio,float64,
+salidas/umbral_elegido_NB3.csv,rend_bh_VA,float64,
+salidas/umbral_elegido_NB3.csv,supera_bh_VA,bool,
+salidas/umbral_por_red_NB3.csv,ticker,object,Símbolo de Yahoo Finance
+salidas/umbral_por_red_NB3.csv,clase,object,"Accion, Cripto o Divisa"
+salidas/umbral_por_red_NB3.csv,red,object,MLP o LSTM
+salidas/umbral_por_red_NB3.csv,regla,object,C: ŷ>δ; D: además precio > SMA20
+salidas/umbral_por_red_NB3.csv,delta,float64,Umbral δ
+salidas/umbral_por_red_NB3.csv,sharpe_medio,float64,
+salidas/umbral_por_red_NB3.csv,sharpe_min,float64,
+salidas/umbral_por_red_NB3.csv,rend_VA,float64,
+salidas/umbral_por_red_NB3.csv,max_dd_VA,float64,
+salidas/umbral_por_red_NB3.csv,operaciones_VA,int64,
+salidas/umbral_por_red_NB3.csv,pct_invertido,float64,
+salidas/umbral_por_red_NB3.csv,sharpe_bh_medio,float64,
+salidas/umbral_por_red_NB3.csv,rend_bh_VA,float64,
+processed/AAPL.csv,r_lag0,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag1,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag2,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag3,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag4,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag5,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag6,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag7,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag8,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag9,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag10,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag11,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag12,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag13,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag14,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag15,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag16,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag17,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag18,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,r_lag19,float64,Rendimiento de t (r_lagk = de t−k)
+processed/AAPL.csv,y,float64,Objetivo: P(t+1)/P(t) − 1
+processed/AAPL.csv,fecha_t,object,Día en que se conoce la información
+processed/AAPL.csv,fecha_objetivo,object,Día t+1 del objetivo
+processed/AAPL.csv,split,object,"TR (70 %), VA (15 %) o TE (15 %)"
+raw/AAPL.csv,Date,object,Fecha de la vela diaria
+raw/AAPL.csv,Open,float64,Precio de apertura
+raw/AAPL.csv,High,float64,Máximo
+raw/AAPL.csv,Low,float64,Mínimo
+raw/AAPL.csv,Close,float64,Cierre ajustado
+raw/AAPL.csv,Volume,int64,Volumen

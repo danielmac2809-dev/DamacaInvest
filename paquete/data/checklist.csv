@@ -1,0 +1,14 @@
+notebook,requisito,cumple
+NB1,40 activos descargados y auditados,✔
+NB1,División 70/15/15 por fecha del objetivo,✔
+NB1,Referencias y experimentos.csv,✔
+NB2,MLP y LSTM × 3 configuraciones × 3 semillas,✔
+NB2,Mejor configuración elegida por RMSE en VA,✔
+NB3,Umbral δ × reglas C/D en 3 ventanas (solo VA),✔
+NB4,"Entorno, transición manual y pruebas anti-trampa",✔
+NB5,Indicadores y comparación A vs B,✔
+NB5,Configuración congelada y TE evaluado una vez,✔
+NB5,Modelos finales y pronóstico futuro,✔
+NB6,4 fallos provocados detectados,✔
+NB6,Bitácora y diccionario de datos,✔
+NB6,Reproducibilidad,✔

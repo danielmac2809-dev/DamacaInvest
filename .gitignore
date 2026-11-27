@@ -1,0 +1,20 @@
+# Secretos: NUNCA subir a GitHub
+.streamlit/secrets.toml
+
+# Configuración local del editor / Claude
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Scripts de prueba generados
+notebooks/_nb*_prueba.py
+
+# Datos y estado local del bot
+data/cache/
+data/estado/
+*.log

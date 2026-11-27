@@ -1,0 +1,11 @@
+streamlit>=1.50
+pandas
+numpy
+yfinance
+plotly
+requests
+scipy
+scikit-learn
+tensorflow-cpu>=2.16
+pytest
+matplotlib
